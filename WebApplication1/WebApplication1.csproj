@@ -155,6 +155,7 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
     <Content Include="Tab1.aspx" />
+    <Content Include="Tab2.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -208,6 +209,13 @@
     </Compile>
     <Compile Include="Tab1.aspx.designer.cs">
       <DependentUpon>Tab1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tab2.aspx.cs">
+      <DependentUpon>Tab2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tab2.aspx.designer.cs">
+      <DependentUpon>Tab2.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
