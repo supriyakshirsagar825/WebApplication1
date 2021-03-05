@@ -12,6 +12,16 @@
           <asp:TextBox runat="server" ID="txt1" Text="tex1" ></asp:TextBox>
           <asp:TextBox runat="server" ID="txt2" Text="txt2"></asp:TextBox>
             <asp:Button runat="server" ID="btn1" text="btn1"/>
+            <div>
+                Data Source=(localdb)\MSSQLLocalDB;
+                Initial Catalog=master;
+                Integrated Security=True;
+                Connect Timeout=30;
+                Encrypt=False;
+                TrustServerCertificate=False;
+                ApplicationIntent=ReadWrite;
+                MultiSubnetFailover=False
+            </div>
          </div>
     </form>
 </body>
